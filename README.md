@@ -20,12 +20,10 @@
 3. Big query data is nested Structure(Project > Dataset > table).
 You can query data like `Project_name.Dataset_name.table_name`.  
 There is 19 datasets in Project ‘Patents-public-data’.  
-~~~
-``` sql
+```sql
 #standardSQL
 SELECT * FROM `patents-public-data.cpc.definitions`;
 ```
-~~~
 [Big query python API](https://googleapis.github.io/google-cloud-python/latest/bigquery/index.html)  
 추후 자세한 사용법 작성  
 <p></p>
