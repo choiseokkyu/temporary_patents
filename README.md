@@ -19,19 +19,17 @@
 </div>
 3. Big query data is nested Structure(Project > Dataset > table).  
   You can query data like  
-  ```sql
-  `Project_name.Dataset_name.table_name`
-  ```
+
   There is 19 datasets in Project ‘Patents-public-data’.  
-  ```sql
-  #standardSQL
-  SELECT * FROM `patents-public-data.cpc.definitions`;
-  ```
+
   [Big query python API](https://googleapis.github.io/google-cloud-python/latest/bigquery/index.html)  
   추후 자세한 사용법 작성  
 
 4. If queried data is not very large, you can save it.  
-
+```sql
+#standardSQL
+SELECT * FROM `patents-public-data.cpc.definitions`;
+```
 5. But data is too large, you have to create your own dataset and save as table.  
 <div>
 <img src="https://user-images.githubusercontent.com/23125324/46584832-25f39300-caa3-11e8-9c23-dfea8029f061.png">
