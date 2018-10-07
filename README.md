@@ -18,8 +18,16 @@
 <img src="https://user-images.githubusercontent.com/23125324/46584820-170ce080-caa3-11e8-8b00-5a88daf8c558.PNG">
 </div>  
   
-3. Big query data is nested Structure(Project > Dataset > table). You can query data like  
+3. Big query data is nested Structure(Project > Dataset > table).  
+  You can query data like  
+  ```sql
+  `Project_name.Dataset_name.Table_name`
+  ```
   There is 19 datasets in Project ‘Patents-public-data’.  
+  ```sql
+  #standardSQL
+  SELECT * FROM `patents-public-data.cpc.definitions`;
+  ```
   [Big query python API](https://googleapis.github.io/google-cloud-python/latest/bigquery/index.html"bigQuery")  
   추후 자세한 사용법 작성  
 
@@ -47,7 +55,3 @@
 --> dataset들 중에 table이 한개인 것도 있고 여러개인 것도 있다. 그러므로 table과 table 사이의 관계, dataset들과의 연관성을 찾는다.  
 --> null 값의 개수 같은 통계정보가 필요할까? 기본적으로 table size(용량), row의 개수같은 정보는 표기되어 있다.
 
-```sql
-#standardSQL
-SELECT * FROM `patents-public-data.cpc.definitions`;
-```
