@@ -23,13 +23,13 @@
   ```sql
   `Project_name.Dataset_name.Table_name`
   ```
-  $nbsp;There is 19 datasets in Project ‘Patents-public-data’.  
+    There is 19 datasets in Project ‘Patents-public-data’.  
   ```sql
   #standardSQL
   SELECT * FROM `patents-public-data.cpc.definitions`;
   ```
-  $nbsp;[Big query python API](https://googleapis.github.io/google-cloud-python/latest/bigquery/index.html"bigQuery")  
-  $nbsp;추후 자세한 사용법 작성  
+    [Big query python API](https://googleapis.github.io/google-cloud-python/latest/bigquery/index.html"bigQuery")  
+    추후 자세한 사용법 작성  
 
 4. If queried data is not very large, you can save it.  
 
