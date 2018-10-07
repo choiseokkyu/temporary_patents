@@ -23,7 +23,7 @@
   SELECT * FROM `patents-public-data.cpc.definitions`;
   ```
   There is 19 datasets in Project ‘Patents-public-data’.  
-  [Big query python API](https://googleapis.github.io/google-cloud-python/latest/bigquery/index.html)  
+  [Big query python API](https://googleapis.github.io/google-cloud-python/latest/bigquery/index.html"bigQuery")  
   추후 자세한 사용법 작성  
 
 4. If queried data is not very large, you can save it.  
