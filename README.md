@@ -11,9 +11,10 @@
 ----------------------------------------------------
 ## How To Use(Web version)  
 1. Create project in your google cloud platform account.
-<p>
+<p></p>
 2. If you use big query on web UI, you have to add ‘#standardSQL’ at the top of query in Big Query or Uncheck SQL Dialect’s <Use Legacy SQL> checkbox.  
 <p></p>
+<img src="https://user-images.githubusercontent.com/23125324/46584804-e9c03280-caa2-11e8-83f4-20e1f54e99ab.PNG">
 ![bigquery1](https://user-images.githubusercontent.com/23125324/46584804-e9c03280-caa2-11e8-83f4-20e1f54e99ab.PNG)
 <p></P>
 ![bigquery22](https://user-images.githubusercontent.com/23125324/46584820-170ce080-caa3-11e8-8b00-5a88daf8c558.PNG)
