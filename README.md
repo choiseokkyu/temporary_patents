@@ -16,7 +16,7 @@
 <p></p>
 <img src="https://user-images.githubusercontent.com/23125324/46584804-e9c03280-caa2-11e8-83f4-20e1f54e99ab.PNG">
 <img src="https://user-images.githubusercontent.com/23125324/46584820-170ce080-caa3-11e8-8b00-5a88daf8c558.PNG">
-<p></P>
+<p></p>
 3. Big query data is nested Structure(Project > Dataset > table).  
 You can query data like
 ```sql
@@ -53,8 +53,3 @@ SELECT * FROM `patents-public-data.cpc.definitions`;
 --> 의미있는 Feature들을 기반으로 Join 같은 데이터 조작을 통해 table을 만든다.  
 --> dataset들 중에 table이 한개인 것도 있고 여러개인 것도 있다. 그러므로 table과 table 사이의 관계, dataset들과의 연관성을 찾는다.  
 --> null 값의 개수 같은 통계정보가 필요할까? 기본적으로 table size(용량), row의 개수같은 정보는 표기되어 있다.
-```c
-void f()
-    printf(%s,“이것은 c 코드 입니다”);
-}
-```
