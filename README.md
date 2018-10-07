@@ -14,9 +14,9 @@
 <p>
 2. If you use big query on web UI, you have to add ‘#standardSQL’ at the top of query in Big Query or Uncheck SQL Dialect’s <Use Legacy SQL> checkbox.  
 <p></p>
-![](https://i.imgur.com/bI2gGOW.png)
+![bigquery1](https://user-images.githubusercontent.com/23125324/46584804-e9c03280-caa2-11e8-83f4-20e1f54e99ab.PNG)
 <p></P>
-![](https://i.imgur.com/Cb2vZ0w.png)
+![bigquery22](https://user-images.githubusercontent.com/23125324/46584820-170ce080-caa3-11e8-8b00-5a88daf8c558.PNG)
 <p></P>
 3. Big query data is nested Structure(Project > Dataset > table).
 You can query data like `Project_name.Dataset_name.table_name`.  
@@ -32,9 +32,9 @@ SELECT * FROM `patents-public-data.cpc.definitions`;
 <p></p>
 5. But data is too large, you have to create your own dataset and save as table.  
 <p></p>
-![](https://i.imgur.com/J2JXiD7.png)
+![createdataset](https://user-images.githubusercontent.com/23125324/46584832-25f39300-caa3-11e8-9c23-dfea8029f061.png)
 <p></P>
-![](https://i.imgur.com/3I3OPL3.png)
+![saveastable](https://user-images.githubusercontent.com/23125324/46584835-2d1aa100-caa3-11e8-8b9b-29fd76fa5f3e.PNG)
 
 
 ----------------------------------------------------
