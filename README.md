@@ -19,11 +19,11 @@
 <p></P>
 3. Big query data is nested Structure(Project > Dataset > table).  
 You can query data like
-```python
+```sql
 `Project_name.Dataset_name.table_name`
 ```
 There is 19 datasets in Project ‘Patents-public-data’.
-```python
+```sql
 #standardSQL
 SELECT * FROM `patents-public-data.cpc.definitions`;
 ```
