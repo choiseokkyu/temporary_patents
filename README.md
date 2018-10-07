@@ -11,12 +11,12 @@
 ----------------------------------------------------
 ## How To Use(Web version)  
 1. Create project in your google cloud platform account.
-<p></p>
+
 2. If you use big query on web UI, you have to add ‘#standardSQL’ at the top of query in Big Query or Uncheck SQL Dialect’s <Use Legacy SQL> checkbox.  
-<p></p>
+<div>
 <img src="https://user-images.githubusercontent.com/23125324/46584804-e9c03280-caa2-11e8-83f4-20e1f54e99ab.PNG">
 <img src="https://user-images.githubusercontent.com/23125324/46584820-170ce080-caa3-11e8-8b00-5a88daf8c558.PNG">
-<p></p>
+</div>
 3. Big query data is nested Structure(Project > Dataset > table).  
 You can query data like
 ```sql
@@ -29,14 +29,14 @@ SELECT * FROM `patents-public-data.cpc.definitions`;
 ```
 [Big query python API](https://googleapis.github.io/google-cloud-python/latest/bigquery/index.html)  
 추후 자세한 사용법 작성  
-<p></p>
+
 4. If queried data is not very large, you can save it.  
-<p></p>
+
 5. But data is too large, you have to create your own dataset and save as table.  
-<p></p>
+<div>
 <img src="https://user-images.githubusercontent.com/23125324/46584832-25f39300-caa3-11e8-9c23-dfea8029f061.png">
 <img src="https://user-images.githubusercontent.com/23125324/46584835-2d1aa100-caa3-11e8-8b9b-29fd76fa5f3e.PNG">
-
+</div>
 
 ----------------------------------------------------
 ## Datasets
